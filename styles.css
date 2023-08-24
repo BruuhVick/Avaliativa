@@ -1,0 +1,67 @@
+/* Defina um estilo global para o corpo do documento */
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("img/DMV.gif");
+    background-repeat: no-repeat ;
+    background-size: cover;
+    color: aqua;
+  }
+  
+  /* Estilize o formulário de login */
+  form {
+    background-image: url("img/Form.jpg");
+    background-repeat: no-repeat ;
+    background-size: cover;
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(90, 247, 255, 0.865);
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #17b3f5;
+  border-radius: 5px;
+  }
+  
+  form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #1b7de6;
+  }
+  
+  a {
+    display: block;
+    margin-top: 10px;
+
+    text-align:center;
+    color: #27a4f1;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+
+  
